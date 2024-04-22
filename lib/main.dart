@@ -15,8 +15,8 @@ class MainApp extends StatelessWidget {
       home: PageView(
         //trocar de tela
         children: const <Widget>[
-          SecondPage(),//pagina do tinder
           FirstPage(),//pagina do money
+          SecondPage(),//pagina do tinder
         ],
       ),
     );

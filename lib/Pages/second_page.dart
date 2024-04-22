@@ -33,6 +33,15 @@ class SecondPage extends StatelessWidget {
               const SizedBox(
                 height: 50,
               ),
+              Positioned(
+                left: 120,
+                top: 335,
+                child: Image.asset(
+                  "assets/imagens/icon_tinder.png",
+                  height: 50,
+                  color: Colors.white,
+                ),
+              ),
               Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
